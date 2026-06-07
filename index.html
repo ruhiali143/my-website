@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mera Pehla page</title>
+    <title>My First Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f2f1;
+            text-align: center;
+            padding: 50px;
+        }
+        .profile-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+            max-width: 500px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+            object-fit: cover;
+            transform: scale(1.6);
+        }
+        .btn {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+    </style>
 </head>
-<body style="background-color:lightblue;">
-<img src="Arshad.jpg" alt="Mera photo" style="width: 150px; border-radius: 10px;">
+<body>
 
-    <h1>Hello, My name is Arshad Ali !</h1>
-    <p>ghar bihar darbhanga chhuriya india pin code 847233 fathar mohammad Asgar mother Najmun nisha 4 brothers Ashraf ali Arshad ali Asad ali Altaf ali sister sabiha khatoon </p>
+    <div class="profile-card"
+        <!-- गिटहब के लिए आपकी फोटो का नाम Arshad.jpg यहाँ सेट कर दिया है -->
+        <img class="profile-img" src="Arshad.jpg" alt="Arshad Ali Logo">
+        <h1>Hello, My name is Arshad Ali!</h1>
+        <p>मैं एक web developer हूँ और बेहतरीन websites बनाता हूँ।</p>
+        <a href="#" class="btn">मुझसे संपर्क करें</a>
+    </div>
 
-
-    <br><br>
-    <a href="https://www.google.com">google per jayein</a>
-
- </body>
- </html>
+</body>
+</html>
